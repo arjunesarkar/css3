@@ -1,0 +1,25 @@
+.box{
+    height: 200px;
+    width: 300px;
+    border: 10px solid blue;
+    overflow: scroll;
+
+}
+.box2{
+    height: 200px;
+    width: 300px;
+    border: 10px solid rgb(113, 105, 121);
+    
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    border: 1px solid indianred;
+}
+.inner{
+    background-color: blueviolet;
+    transform: translateX(10px);
+}
+.outer{
+    background-color: rgb(41, 170, 230);
+}
