@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            max-width: 1200px;
+        }
+        .food{
+            border: 3px solid lightblue;
+            border-radius: 10px;
+            margin: 30px;
+        }
+        .food img{
+            width: 100%;
+        }
+        @media (max-width :770px) {
+            .container{
+                flex-direction: column;
+            }
+            .container .food{
+                background-color: blueviolet;
+            }
+        }
+        @media (min-width:1000px) {
+            .container .food{
+                background-color: brown;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="food">
+            <img src="food.jpg" alt="">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium voluptate maiores id reiciendis, numquam ad cupiditate nam eaque sit quae sed, nulla saepe vitae. Debitis impedit consequuntur exercitationem incidunt consectetur!</p>
+        </div>
+        <div class="food">
+            <img src="food.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ipsam placeat neque quos dolore cum dolorum vero facilis autem facere! Explicabo rem eum totam vero ad temporibus, alias modi voluptate!</p>
+        </div>
+        <div class="food">
+            <img src="food.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro itaque at, laborum facilis atque quaerat debitis natus vero, enim voluptatibus modi? Possimus consequuntur, eveniet animi odit sit qui similique iste!</p>
+        </div>
+    </div>
+</body>
+</html>
